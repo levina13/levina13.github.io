@@ -1,0 +1,142 @@
+/*Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .hero-img img {
+    width: 100%;
+  }
+  .content-container p {
+    font-size: 30px;
+  }
+  .content-container .cards {
+    flex-wrap: wrap;
+    flex: auto;
+  }
+  .content-container .cards .card {
+    width: 40%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: 40%;
+  }
+  .img-card {
+    display: block;
+    margin: 20px 10px 0px 10px;
+    padding: 0px;
+    justify-content: center;
+  }
+  .img-card img {
+    width: 100%;
+    justify-content: center;
+  }
+  .contact-container {
+    display: block;
+    width: 100%;
+  }
+  .contacts {
+    display: flex;
+    width: 100%;
+  }
+  .contacts .contact {
+    width: 32%;
+  }
+  .contact img {
+    width: 50%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .hero-img img {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .hero a {
+    padding: 10px 10px;
+    margin-top: 0px;
+  }
+  .content-container p {
+    font-size: 30px;
+  }
+
+  .content-container .cards {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .content-container .cards .card {
+    width: 80%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 80%;
+  }
+  .img-card {
+    display: block;
+    margin: 20px 10px 0px 10px;
+    padding: 0px;
+    justify-content: center;
+  }
+  .img-card img {
+    width: 100%;
+    justify-content: center;
+  }
+  .card p {
+    font-size: 24px;
+  }
+  .card .price {
+    padding-top: 16px;
+    padding-left: 40px;
+  }
+
+  .contact-container h2 {
+    font-size: 20px;
+  }
+  .contacts {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .contact {
+    width: 50%;
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    flex: auto;
+  }
+  .contact p {
+    font-size: 10px;
+  }
+  .contact img {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+  }
+  .header {
+    height: 30px;
+  }
+
+  .header-logo {
+    float: left;
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .header-logo img {
+    width: 100%;
+  }
+  .header-list ul {
+    display: none;
+  }
+  .header-list img {
+    display: inline-block;
+    width: 35px;
+    margin-right: 2px;
+    margin-top: -2px;
+  }
+}
